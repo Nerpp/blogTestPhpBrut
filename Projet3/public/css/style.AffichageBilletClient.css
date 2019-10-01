@@ -1,0 +1,27 @@
+
+/*Affichage CLient*/
+#conteneurAffichage
+{
+    display: flex;
+    flex-direction: column;
+}
+.elementConteneur:nth-child(1)
+{
+    margin-left: 10%;
+}
+.elementConteneur:nth-child(2)
+{
+    align-self: center;
+}
+.elementConteneur:nth-child(3)
+{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/*bouton Et information*/
+#conteneurBoutonInformation
+{
+    display: flex;
+}
+

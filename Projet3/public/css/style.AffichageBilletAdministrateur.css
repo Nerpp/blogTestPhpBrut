@@ -1,0 +1,28 @@
+/*En tete */
+#conteneurEntete
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.elementEntete:nth-child(1)
+{
+    margin-left: 10%;
+}
+.elementEntete:nth-child(2)
+{
+    align-self: center;
+}
+.elementEntete:nth-child(3)
+{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/*Options*/
+#conteneurOption
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1%;
+}

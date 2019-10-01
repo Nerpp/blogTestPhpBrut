@@ -1,0 +1,103 @@
+/*erreur*/
+.error{
+    color: #DC143C;
+}
+
+body
+{
+/*    background-color: lightblue;*/
+    background-image: url("../image/aurore.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+/*Header*/
+#conteneurHeader
+{
+    display: flex;
+    
+}
+/*Titre*/
+#conteneurTitre
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    order:2;
+}
+.elementTitre:nth-child(1) 
+{
+    align-self: flex-start;
+    margin-left: 10%;
+    height:15%;
+}
+.elementTitre:nth-child(2)
+{
+    align-self: center;
+    height:15%;
+
+
+}
+.elementTitre:nth-child(3)
+{
+    align-self: flex-end;
+    margin-right: 10%;
+}
+/*Video*/
+#conteneurVideo
+{
+    display: flex;
+    order:1;
+}
+
+/*Identification*/
+#conteneurIdentification
+{
+    display: flex;
+    justify-content: flex-end;
+}
+#oublieMdp
+{
+    align-self: flex-end;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+#styleOublie
+{
+    border:none;
+    padding:6px 0 6px 0;
+    border-radius:75%;
+    border-bottom:7px solid #4753f3;
+    font:bold 13px Arial;
+    color:#555;
+    background:#fff;
+    box-shadow:2px 2px 3px #999;
+    border-top:2px solid #59cd27;
+}
+
+/*Sommaire*/
+#conteneurSommaire
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boutonLire
+{
+    margin-left: 85%;
+}
+
+.styleLire
+{
+    border:none;
+    padding:6px;
+    border-radius:75%;
+    border-bottom:3px solid #4753f3;
+    font:bold 13px Arial;
+    color:#555;
+    background:#fff;
+}

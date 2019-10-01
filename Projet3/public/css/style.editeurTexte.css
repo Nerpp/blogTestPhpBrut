@@ -1,0 +1,49 @@
+#conteneurTitre
+{
+    display: flex;
+    justify-content: center;
+}
+
+#conteneurPresentation
+{
+    display: flex;
+    margin-top: 2%;
+}
+.elementPresentation:nth-child(1)
+{
+   margin-left: 5%;
+}
+.elementPresentation:nth-child(2)
+{
+   margin-left: 1%;
+}
+#conteneurTextArea
+{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/*pour adminsitrer la taille du text_area*/
+#mceu_26
+{
+    height: 1000px;
+}
+
+/*Bouton Supprimer*/
+#conteneurAnnulation
+{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+.boutonSuppression
+{
+    width:85px;
+    height:85px;
+    background:#cc0000;
+    font:bold 13px Arial;
+    border-radius:50%;
+    border:none;
+    color:#fff;
+}

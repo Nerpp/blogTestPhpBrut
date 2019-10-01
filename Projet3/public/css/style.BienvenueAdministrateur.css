@@ -1,0 +1,73 @@
+/*en tête*/
+#conteneurEnTete
+{
+    display: flex;
+    flex-direction: column;
+}
+.elementEnTete:nth-child(1)
+{
+    align-self: center;
+}
+.elementEnTete:nth-child(2)
+{
+    align-self: flex-end;
+    margin-right: 20%;
+}
+/*Bouton Deconnection*/
+#conteneurDeconnexion
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+.boutonDeconnexion
+{
+    border-radius:12px 0 12px 0;
+    background: #d34836;
+    border:none;
+    color:#fff;
+    font:bold 12px Verdana;
+    padding:6px 0 6px 0;
+}
+/*nouveau Billet*/
+#conteneurNouveauBillet
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.elementNouveauBillet:nth-child(1)
+{
+    margin-left: 10%;
+}
+.elementNouveauBillet:nth-child(2)
+{
+    margin-left: 12%;
+}
+/*Affichage*/
+#conteneurAffichage
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.elementAffichage:nth-child(1)
+{
+    order: 2;
+}
+.elementAffichage:nth-child(2)
+{
+    order: 3;
+}
+.elementAffichage:nth-child(3)
+{
+    order: 1;
+}
+
+/*Billet*/
+#conteneurBillet
+{
+/*    display: flex;*/
+    margin: auto;
+}
